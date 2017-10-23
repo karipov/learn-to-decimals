@@ -1,0 +1,37 @@
+Create an app to test students on their ability to subtract,
+multiply, divide and add decimal numbers. It will have a simple interface in
+form of a terminal and will write the results to a text file in the same folder.
+There will be random numbers generated, from 0 to 1000 and decimal points up to 2.
+The computer will then check the student's answer and compare it to the correct one.
+If correct, it will give one point, if not, no points are awarded. There will
+be 20 questions in total.
+
+Extension: send the results to an email? Calculate a percentage and send it in
+that form.
+
+Further extension: make a GUI application with the tkinter module
+
+
+MASTER PLAN
+
+Keywords:
+multiply
+divide
+add
+subtract
+text file
+random
+points
+decimal
+
+Tree:
+operations:
+  multiply
+  divide
+  add
+  subtract
+data file
+random:
+  decimal
+  from 0 to 1000, max 2 d.p.
+points
