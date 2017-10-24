@@ -6,6 +6,12 @@ score_counter = 0 # overall score of the user. Modified by counter(t_or_f)
 answers_list = [] # data for sending it to the Results.txt file
 
 
+# asks the user for his name, later to be added to Results.txt
+def username():
+    name = input("Please enter your name: ")
+    return name
+
+
 # generates a random number with with 2 d.p.
 def random_number():
     return float(random.randint(1, 10000)/10)
