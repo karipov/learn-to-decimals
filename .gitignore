@@ -1,0 +1,5 @@
+# bite-compiled files
+__pycache__/
+
+# program generated files
+Results.txt
